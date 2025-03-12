@@ -3,20 +3,20 @@ let cross = document.querySelector(".cross");
 let up_sidebar = document.querySelector("up_sidebar");
 
 //smooth scroll
-const lenis = new Lenis({
-    duration:1.2
-});
-lenis.on('scroll', (e) => {
-    console.log(e);
-});
-function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
-if (window.innerWidth < 768) {
-    ScrollTrigger.getAll().forEach(trigger => trigger.kill()); // Disable ScrollTrigger on mobile
-}
+// const lenis = new Lenis({
+//     duration:1.2
+// });
+// lenis.on('scroll', (e) => {
+//     console.log(e);
+// });
+// function raf(time) {
+//     lenis.raf(time);
+//     requestAnimationFrame(raf);
+// }
+// requestAnimationFrame(raf);
+// if (window.innerWidth < 768) {
+//     ScrollTrigger.getAll().forEach(trigger => trigger.kill()); // Disable ScrollTrigger on mobile
+// }
 
 gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.defaults({ lazy: false });
