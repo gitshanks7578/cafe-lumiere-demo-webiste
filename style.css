@@ -342,7 +342,7 @@ transition: color 0.3s;
 }
 .hero_txt p,
 .hero_txt h1 {
-    font-family: var(--font-style-2);
+    font-family: Arial, sans-serif;
 }
 
 .hero_txt h1 {
