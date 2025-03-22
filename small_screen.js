@@ -66,34 +66,7 @@ gsap.to(".touch_txt hr",{
     }
 })
 
-gsap.to(".f_image",{
-    opacity:1,
-    stagger:0.2,
-    
-    scrollTrigger:{
-        scroller:"body",
-        trigger:".f_image",
-        start:"top 40%",
-        end:"top 10%",
-        markers:true,
-        scrub:2
-    }
-    
-})
-gsap.to(".coffee_img",{
-    opacity:1,
-    stagger:0.2,
-    
-    scrollTrigger:{
-        scroller:"body",
-        trigger:".coffee_img",
-        start:"top 40%",
-        end:"top 10%",
-        markers:true,
-        scrub:2
-    }
-    
-})
+
 
 
 
