@@ -97,7 +97,7 @@ gsap.to(".coffee_img",{
 
 gsap.to(".burger_img",{
     opacity:1,
-    stagger:0.1,
+    stagger:0.01,
     
     scrollTrigger:{
         scroller:"body",
