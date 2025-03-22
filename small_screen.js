@@ -68,7 +68,7 @@ gsap.to(".touch_txt hr",{
 
 gsap.to(".f_image",{
     opacity:1,
-    stagger:0.1,
+    stagger:0.2,
     
     scrollTrigger:{
         scroller:"body",
@@ -76,13 +76,13 @@ gsap.to(".f_image",{
         start:"top 40%",
         end:"top 10%",
         markers:true,
-        scrub:4
+        scrub:2
     }
     
 })
 gsap.to(".coffee_img",{
     opacity:1,
-    stagger:0.1,
+    stagger:0.2,
     
     scrollTrigger:{
         scroller:"body",
@@ -90,14 +90,14 @@ gsap.to(".coffee_img",{
         start:"top 40%",
         end:"top 10%",
         markers:true,
-        scrub:4
+        scrub:2
     }
     
 })
 
 gsap.to(".burger_img",{
     opacity:1,
-    stagger:0.01,
+    stagger:0.2,
     
     scrollTrigger:{
         scroller:"body",
