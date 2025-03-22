@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
     <title>Cafe Lumiere</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gitshanks7578/cafe-lumiere-demo-webiste@main/style.css 
-">
+    <!-- <link rel="stylesheet" href="https://gitshanks7578.github.io/cafe-lumiere-demo-webiste/style2.css"> -->
+     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
         integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -76,8 +75,8 @@
         </div>
     </header>
 
-
-    <section id="hero">
+ 
+     <div id="hero">
         <div class="overlay"></div>
         <div class="image">
             <img src="assets new/pexels-wildlittlethingsphoto-887723.avif" alt="" loading="eager">
@@ -95,8 +94,9 @@
 
         </div>
 
-    </section>
-    <section id="feature">
+    </div>
+
+<div id="feature">
         <div class="feature_txt">
             <p>Cozy</p>
             <h1>Experience the Warmth of Cafe Lumiere</h1>
@@ -119,14 +119,22 @@
             </a>
         </div>
         <div class="feature_img">
-            <div class="f_image f_image1"></div>
-            <div class="f_image f_image2"></div>
-            <div class="f_image f_image3"></div>
+          <div class="f_image f_image1">
+            <img src="assets new/pexels-ekrulila-2128109.avif" alt="food_image">
+          </div>
+            <div class="f_image f_image2">
+                <img src="assets new/pexels-roneferreira-2735037.avif" alt="food_image">
+            </div>
+            <div class="f_image f_image3">
+                <img src="assets new/pexels-chevanon-324028.avif" alt="food_image">
+            </div>
         </div>
-    </section>
+    </div>   
 
-    <section id="coffee_intro">
-        <div class="coffee_img"></div>
+     <div id="coffee_intro">
+        <div class="coffee_img">
+            <img src="assets new/pexels-ekrulila-2128109.avif" alt="coffee img" loading="lazy">
+        </div>
         <div class="coffee_txt">
             <h1>Discover Our Unique Specialty Coffees Crafted for Your Perfect Experience</h1>
             <p>At Cafe Lumiere, we pride ourselves on our specialty coffees, each brewed to perfection. Our unique
@@ -143,9 +151,9 @@
             </div>
         </div>
 
-    </section>
+    </div> 
 
-    <section id="burger_intro">
+<div id="burger_intro">
         <div class="burger_txt">
             <p>Indulgence</p>
             <h1>Savor Our Gourmet Burgers Crafted with Care</h1>
@@ -153,14 +161,21 @@
                 delight. Experience unique recipes that elevate your dining experience to new heights.</p>
         </div>
         <div class="burger_image">
-            <div class="burger_img burger_img1"></div>
-            <div class="burger_img burger_img2"></div>
-            <div class="burger_img burger_img3"></div>
+            <div class="burger_img burger_img1">
+                <img src="assets new/pexels-criticalimagery-28852887.avif" alt="burger1" loading="lazy">
+            </div>
+            <div class="burger_img burger_img2">
+                <img src="assets new/pexels-natan-machado-fotografia-gastronomica-162809799-15010298.avif" alt="burger2" loading="lazy">
+            </div>
+            <div class="burger_img burger_img3">
+                <img src="assets new/pexels-cole-yap-2149136300-30446280.avif" alt="burger3" loading="lazy">
+            </div>
         </div>
-    </section>
+        
+    </div> 
 
-    <section id="story">
-        <img id="story_img" src="assets new/pexels-wendywei-1546360.avif" alt="" loading="eager">
+     <div id="story">
+        <img id="story_img" src="assets new/pexels-wendywei-1546360.avif" alt="" loading="lazy">
         <div class="story_text">
             <div class="story_txt story_txt1">
                 <p>Welcome</p>
@@ -175,32 +190,11 @@
                 </a>
             </div>
         </div>
-    </section>
+        
+    </div> 
 
-    <!-- <section id="testimonials">
-        <h1>Our Testimonials</h1>
-        <div class="swiper">
-            
-            <div class="swiper-wrapper">
-              
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">hnyhnh</div>
-              <div class="swiper-slide">bytb4t</div>
-           
-            </div>
-            If we need pagination
-            <div class="swiper-pagination"></div>
-          
-            If we need navigation buttons
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          
-            If we need scrollbar
-            <div class="swiper-scrollbar"></div>
-          </div>
-    </section> -->
 
-    <section id="faq_page">
+     <div id="faq_page">
 
         <div class="faq_txt">
             <h1>FAQs</h1>
@@ -267,36 +261,34 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
-    <section id="contact">
+    <div id="contact">
         <div class="contact_img">
-            <img src="assets/contact-img.avif" alt="" loading="eager">
+            <img src="assets/contact-img.avif" alt="" loading="lazy">
         </div>
         <div class="contact_flex">
-            <div class="container">
+            <form class="container" action="https://sheetdb.io/api/v1/krdzfa8oyller">
                 <h2>Contact Us</h2>
                 <div class="input-box">
-                    <input type="text" id="name" placeholder=" " required>
+                    <input type="text" id="name" placeholder=" " required name="name">
                     <label for="name">Name</label>
                 </div>
                 <div class="input-box">
-                    <input type="email" id="email" placeholder=" " required>
+                    <input type="email" id="email" placeholder=" " required name="email">
                     <label for="email">Email</label>
                 </div>
                 <div class="input-box">
-                    <input type="tel" id="phone" placeholder=" " required>
+                    <input type="tel" id="phone" placeholder=" " required name="phone">
                     <label for="phone">Phone</label>
                 </div>
                 <div class="input-box">
-                    <input id="message" placeholder=" " required></input>
+                    <input id="message" placeholder=" " required name="message"></input>
                     <label for="message">Message</label>
                 </div>
 
                 <button class="submit-btn">Submit</button>
-
-
-            </div>
+            </form>
             <div class="get_in_touch">
                 <div class="touch_txt">
                     <h1>Get in Touch</h1>
@@ -344,8 +336,8 @@
             </div>
         </div>
 
-    </section>
-    <section id="footer">
+    </div>
+    <div id="footer">
         <div class="footer_txt">
             <h5>
                 Café Lumière – Where Every Sip Tells a Story
@@ -368,11 +360,9 @@
             </a>
 
         </div>
-    </section>
+    </div>  
 
 
-
-    <!-- lenis  -->
     <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
     <!-- gsap and scrolltrigger -->
     <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
@@ -381,8 +371,107 @@
     <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
         integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/gh/gitshanks7578/cafe-lumiere-demo-webiste@main/app.js" async></script>
+    <!-- <script src="app.js" async></script> -->
+     <!-- <script src="app.js"></script> -->
+
+
+     <script>
+        // Define the media queries
+        const smallScreenMediaQuery = window.matchMedia('(max-width: 600px)');
+        const largeScreenMediaQuery = window.matchMedia('(min-width: 601px)');
+      
+        // Function to load a script
+        function loadScript(scriptName) {
+          const script = document.createElement('script');
+          script.src = scriptName;
+          script.id = scriptName; // Optional: Assign an ID to remove the script later
+          document.body.appendChild(script);
+        }
+      
+        // Function to remove a script
+        function removeScript(scriptName) {
+          const script = document.getElementById(scriptName);
+          if (script) {
+            script.remove();
+          }
+        }
+      
+        // Function to load scripts based on the screen size
+        function handleScreenChange() {
+          if (smallScreenMediaQuery.matches) {
+            // For small screens, load the small screen script and remove the large screen script
+            loadScript('small_screen.js');
+            removeScript('large_screen.js');
+          } else if (largeScreenMediaQuery.matches) {
+            // For large screens, load the large screen script and remove the small screen script
+            loadScript('large_screen.js');
+            removeScript('small_screen.js');
+          }
+        }
+      
+        // Attach event listeners to detect changes
+        smallScreenMediaQuery.addEventListener('change', handleScreenChange);
+        largeScreenMediaQuery.addEventListener('change', handleScreenChange);
+      
+        // Initial check when the page loads
+        handleScreenChange();
+
+
+
+
+
+        
+
+
+        let submitButton = document.querySelector(".submit-btn");
+var form = document.querySelector(".container");
+
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    submitButton.disabled = true;
+    submitButton.innerText = "Submitting...";
+    submitButton.style.backgroundColor = "gray";
+
+    // Create FormData from the form
+    let formData = new FormData(form);
+
+    // Convert FormData to JSON (for SheetDB API)
+    let formDataObject = {};
+    formData.forEach((value, key) => {
+        formDataObject[key] = value;
+    });
+
+    // Fetch request to SheetDB API
+    fetch(form.action, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formDataObject), // Sending JSON data to SheetDB
+    })
+    .then(response => response.json())
+    .then((html) => {
+        // Handle success
+        alert("Form submitted successfully!");
+        form.reset();
+        submitButton.innerText = "Submit";
+        submitButton.disabled = false;
+        submitButton.style.backgroundColor = "#E8A461";
+    })
+    .catch((error) => {
+        // Handle errors (e.g., network or API errors)
+        // alert("Something went wrong!");
+        
+        console.error('Error:', error);
+        submitButton.innerText = "Submit";
+        submitButton.disabled = false;
+        submitButton.style.backgroundColor = "#E8A461";
+    });
+});
+
+      </script>
 </body>
 
 </html>
