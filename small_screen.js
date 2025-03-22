@@ -76,7 +76,7 @@ gsap.to(".f_image",{
         start:"top 40%",
         end:"top 10%",
         markers:true,
-        scrub:2
+        scrub:4
     }
     
 })
@@ -90,7 +90,7 @@ gsap.to(".coffee_img",{
         start:"top 40%",
         end:"top 10%",
         markers:true,
-        scrub:2
+        scrub:4
     }
     
 })
@@ -105,7 +105,7 @@ gsap.to(".burger_img",{
         start:"top 40%",
         end:"top 10%",
         markers:true,
-        scrub:2
+        scrub:4
     }
     
 })
