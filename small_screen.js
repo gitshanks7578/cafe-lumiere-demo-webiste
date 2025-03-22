@@ -95,20 +95,7 @@ gsap.to(".coffee_img",{
     
 })
 
-gsap.to(".burger_img",{
-    opacity:1,
-    stagger:0.2,
-    
-    scrollTrigger:{
-        scroller:"body",
-        trigger:".burger_img",
-        start:"top 40%",
-        end:"top 30%",
-        markers:true,
-        scrub:2
-    }
-    
-})
+
 
 
 
