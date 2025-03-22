@@ -20,7 +20,34 @@ requestAnimationFrame(raf);
 // gsap.registerPlugin(ScrollTrigger);
 // ScrollTrigger.defaults({ lazy: false });
 
-
+gsap.to(".f_image",{
+    opacity:1,
+    stagger:0.2,
+    
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".f_image",
+        start:"top 40%",
+        end:"top 10%",
+        markers:true,
+        scrub:2
+    }
+    
+})
+gsap.to(".coffee_img",{
+    opacity:1,
+    stagger:0.2,
+    
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".coffee_img",
+        start:"top 40%",
+        end:"top 10%",
+        markers:true,
+        scrub:2
+    }
+    
+})
 sidebar_btn.addEventListener("click",()=>{
     gsap.to(".up_sidebar",{
             top:"0%",
