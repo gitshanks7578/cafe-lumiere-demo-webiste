@@ -66,7 +66,18 @@ gsap.to(".touch_txt hr",{
     }
 })
 
-
+gsap.to(".feature_img",{
+    opacity:1,
+    stagger:0.1,
+    duration:0.5,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".feature_img",
+        start:"top 50%",
+        end:"top 40%"
+    }
+    
+})
 
 
 
