@@ -69,7 +69,7 @@ gsap.to(".touch_txt hr",{
 gsap.to(".f_image",{
     opacity:1,
     stagger:0.1,
-    duration:1,
+    
     scrollTrigger:{
         scroller:"body",
         trigger:".f_image",
@@ -83,7 +83,7 @@ gsap.to(".f_image",{
 gsap.to(".coffee_img",{
     opacity:1,
     stagger:0.1,
-    duration:1,
+    
     scrollTrigger:{
         scroller:"body",
         trigger:".coffee_img",
@@ -98,7 +98,7 @@ gsap.to(".coffee_img",{
 gsap.to(".burger_img",{
     opacity:1,
     stagger:0.1,
-    duration:2,
+    
     scrollTrigger:{
         scroller:"body",
         trigger:".burger_img",
