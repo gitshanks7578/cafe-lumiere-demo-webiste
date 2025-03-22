@@ -66,19 +66,49 @@ gsap.to(".touch_txt hr",{
     }
 })
 
-gsap.to(".feature_img",{
+gsap.to(".f_image",{
     opacity:1,
     stagger:0.1,
-    duration:0.5,
+    duration:1,
     scrollTrigger:{
         scroller:"body",
-        trigger:".feature_img",
-        start:"top 50%",
-        end:"top 40%"
+        trigger:".f_image",
+        start:"top 40%",
+        end:"top 10%",
+        markers:true,
+        scrub:2
+    }
+    
+})
+gsap.to(".coffee_img",{
+    opacity:1,
+    stagger:0.1,
+    duration:1,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".coffee_img",
+        start:"top 40%",
+        end:"top 10%",
+        markers:true,
+        scrub:2
     }
     
 })
 
+gsap.to(".burger_img",{
+    opacity:1,
+    stagger:0.1,
+    duration:2,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".burger_img",
+        start:"top 40%",
+        end:"top 10%",
+        markers:true,
+        scrub:2
+    }
+    
+})
 
 
 
@@ -199,7 +229,6 @@ document.querySelectorAll(".seen").forEach(item => {
   
 // //   moveSVGs(); 
   
-
 
 
 
