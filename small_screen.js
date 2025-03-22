@@ -103,9 +103,9 @@ gsap.to(".burger_img",{
         scroller:"body",
         trigger:".burger_img",
         start:"top 40%",
-        end:"top 10%",
+        end:"top 30%",
         markers:true,
-        scrub:4
+        scrub:2
     }
     
 })
